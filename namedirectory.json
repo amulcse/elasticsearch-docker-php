@@ -1,0 +1,13 @@
+{"index":{"_index":"namedirectory","_id":0}}
+{"type":"act","line_id":1,"first_name":"Amul", "last_name":"Patel","mobile":"12312312"}
+{"index":{"_index":"namedirectory","_id":1}}
+{"type":"act","line_id":2,"first_name":"Prahlad", "last_name":"Makvana","mobile":"12312312"}
+{"index":{"_index":"namedirectory","_id":2}}
+{"type":"act","line_id":3,"first_name":"Parth", "last_name":"Bhavsar","mobile":"12312312"}
+{"index":{"_index":"namedirectory","_id":3}}
+{"type":"act","line_id":4,"first_name":"Ravi", "last_name":"Patel","mobile":"12312312"}
+{"index":{"_index":"namedirectory","_id":4}}
+{"type":"act","line_id":5,"first_name":"Ravi", "last_name":"Sharma","mobile":"12312312"}
+{"index":{"_index":"namedirectory","_id":5}}
+{"type":"act","line_id":6,"first_name":"Divyesh", "last_name":"Gondaliya","mobile":"12312312"}
+{"index":{"_index":"namedirectory","_id":6}}

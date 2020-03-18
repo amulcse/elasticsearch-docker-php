@@ -1,0 +1,17 @@
+Installation Part(With Docker)
+
+Step1: Install elasticsearch with docker image( https://hub.docker.com/_/elasticsearch)
+
+Step2: Load Sample Data(https://www.elastic.co/guide/en/kibana/6.8/tutorial-load-dataset.html)
+
+curl -s -H "Content-Type: application/json" -XPOST localhost:9200/product/default/_bulk?pretty --data-binary @/var/www/html/elasticsearch/namedirectory.json 
+
+Note: json file end with new line 
+
+Step3: Defining your index pattern (https://www.elastic.co/guide/en/kibana/6.8/tutorial-define-index.html#tutorial-define-index)  
+
+We use: namedirectory
+
+Step4: Discover your data(https://www.elastic.co/guide/en/kibana/current/tutorial-discovering.html#tutorial-discovering)
+
+Step5: Search will work at http://YOUR_IP/elasticsearch/searchapi/search.php?q=Amul

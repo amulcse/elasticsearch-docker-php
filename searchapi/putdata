@@ -1,0 +1,1 @@
+curl -sS -H "Content-Type: application/x-ndjson" -X POST 192.168.1.6:9200/_bulk --data-binary "@REQUESTFILE" 2>&1

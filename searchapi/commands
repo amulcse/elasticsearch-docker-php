@@ -1,0 +1,7 @@
+curl -X GET "172.19.0.1:9200/namedirectory/_search" -H 'Content-Type: application/json' -d'
+{
+  "query": {
+        "match":  MAINQUERY
+  }
+}
+'
